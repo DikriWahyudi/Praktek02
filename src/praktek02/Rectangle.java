@@ -4,6 +4,7 @@ public class Rectangle {
     double Lebar;
 
     
+    
     void cetakInfo(){
         System.out.println("=========================");
         System.out.println("Panjang :" + Panjang);
@@ -17,5 +18,8 @@ public class Rectangle {
         
         return Luas;
     }
-   
+    
+    void cetakLuas(){
+        System.out.println("Luasnya adalah = " + hitungLuas());
+    }
 }
