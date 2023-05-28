@@ -7,6 +7,11 @@ public class Rectangle {
         Panjang = 5;
         Lebar = 2;
     }
+
+    public Rectangle(double Panjang, double Lebar) {
+        this.Panjang = Panjang;
+        this.Lebar = Lebar;
+    }
     
     void cetakInfo(){
         System.out.println("=========================");
